@@ -1,16 +1,17 @@
-# React + Vite
+🌸 Sembrando Conocimientos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+“Sembrando Conocimientos” es una organización dedicada a promover oportunidades académicas para jóvenes, brindando herramientas y recursos que fortalecen sus capacidades, fomentan su creatividad y potencian su desarrollo integral.
 
-Currently, two official plugins are available:
+Creemos en el poder de la educación para transformar vidas y construir un futuro lleno de posibilidades.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👩‍💻 Participantes:
 
-## React Compiler
+Sasha Manihuari
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Yaiza Rojas
 
-## Expanding the ESLint configuration
+Akari Avalos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Objetivo Impulsar espacios de aprendizaje accesibles e inclusivos, apoyando a jóvenes en su desarrollo académico y personal.
+
+📄 Licencia Este proyecto se comparte con fines educativos y de libre acceso
