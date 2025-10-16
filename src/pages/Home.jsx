@@ -1,8 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import featuresData from "../data/features.json";
-import testimonialsData from "../data/testimonials.json";
-import coursesData from "../data/courses.json";
 
 const Home = () => {
   const [features, setFeatures] = useState([]);
