@@ -5,7 +5,7 @@ import Nosotras from "./pages/Nosotras";
 import MisionVision from "./pages/MisionVision";
 import Testimonios from "./pages/Testimonios";
 import Foro from "./pages/Foro";
-import Contactanos from "./pages/Contactanos";
+import Contactanos from "./pages/Contactanos"
 
 function App() {
   return (
