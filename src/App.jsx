@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./components/Layout.jsx";
 
-import Home from "./pages/Home";
-import Nosotras from "./pages/Nosotras";
-import MisionVision from "./pages/MisionVision";
-import Testimonios from "./pages/Testimonios";
+import Home from "./pages/Home.jsx";
+import Nosotras from "./pages/Nosotras.jsx";
+import MisionVision from "./pages/MisionVision.jsx";
+import Testimonios from "./pages/Testimonios.jsx";
 import Foro from "./pages/Foro";
-import Contactanos from "./pages/Contactanos";
+import Contactanos from "./pages/Contactanos.jsx";
 
 function App() {
   return (
