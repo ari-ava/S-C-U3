@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Nosotras from "./pages/Nosotras";
 import MisionVision from "./pages/MisionVision";
 import Testimonios from "./pages/Testimonios";
-import Foro from "./pages/Foro"
+import Foro from "./pages/Foro";
 import Contacto from "./pages/Contacto";
 
 function App() {
