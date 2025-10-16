@@ -8,7 +8,7 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simular carga de datos
+
     setTimeout(() => {
       setFeatures(featuresData.features);
       setStats(featuresData.stats);
@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div>
-      {/* Hero Section */}
+      { }
       <section className="hero-gradient text-white py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
