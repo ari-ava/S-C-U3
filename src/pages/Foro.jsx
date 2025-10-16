@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import materiasData from "../data/materias.json";
+import materiasData from "../data/materiales.json";
 
 const Foro = () => {
   const [mensajes, setMensajes] = useState([]);
