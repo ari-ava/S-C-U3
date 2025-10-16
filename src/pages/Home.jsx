@@ -1,32 +1,69 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion"; 
+import mensajesData from "../data/mensajesHome.json";
 
 const Home = () => {
+  const [mensajeActual, setMensajeActual] = useState(0);
+
+  useEffect(() => {
+    const intervalo = setInterval(() => {
+      setMensajeActual((prev) => (prev + 1) % mensajesData.length);
+    }, 4000);
+    return () => clearInterval(intervalo);
+  }, []);
+
+  const mensaje = mensajesData[mensajeActual];
+
   return (
-    <div className="flex flex-col items-center justify-center text-center min-h-[80vh] bg-gradient-to-b from-orange-100 to-orange-50 px-6 py-16">
+    <div className="flex flex-col items-center justify-center text-center min-h-[90vh] bg-gradient-to-b from-orange-100 to-orange-50 px-6 py-16">
       
-      {/* HERO */}
-      <div className="max-w-3xl">
+      {/* Hero Section */}
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="max-w-3xl"
+      >
         <h1 className="text-4xl sm:text-5xl font-bold text-orange-800 mb-6">
           Bienvenid@s a{" "}
           <span className="text-orange-600">Sembrando Conocimientos</span>
         </h1>
         <p className="text-lg text-gray-700 leading-relaxed">
-          Un espacio donde cultivamos ideas, compartimos aprendizajes y crecemos junt@s.
+          Un espacio donde cultivamos ideas, compartimos aprendizajes y crecemos junt@s 🌱
         </p>
-      </div>
+      </motion.div>
 
-      {/* IMAGEN PRINCIPAL */}
-      <div className="mt-12">
+      { }
+      <motion.div
+        className="mt-10"
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 1 }}
+      >
         <img
           src="/assets/img/ChatGPT Image 21 sept 2025, 19_46_22.png"
-          alt="Logo principal de Sembrando Conocimientos"
-          className="w-48 h-48 rounded-full shadow-lg border-4 border-orange-300"
+          alt="Logo principal"
+          className="w-40 h-40 sm:w-56 sm:h-56 rounded-full shadow-xl border-4 border-orange-300 bg-white"
         />
-      </div>
+      </motion.div>
 
-      {/* FOOTER (solo para esta vista) */}
+      { }
+      <motion.div
+        key={mensaje.id}
+        className="mt-10 bg-white rounded-2xl shadow-md p-6 w-full sm:w-[600px] border border-orange-200"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <h2 className="text-2xl font-semibold text-orange-700 mb-2">
+          {mensaje.titulo}
+        </h2>
+        <p className="text-gray-700">{mensaje.descripcion}</p>
+      </motion.div>
+
+      {/* Footer */}
       <footer className="mt-16 text-orange-700 text-sm">
-        © 2025 Sembrando Conocimientos | Todos los derechos reservados 🌱
+        © 2025 Sembrando Conocimientos | Todos los derechos reservados 🌾
       </footer>
     </div>
   );
