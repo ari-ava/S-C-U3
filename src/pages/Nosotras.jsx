@@ -1,5 +1,5 @@
 import React from "react";
-import equipo from "../data/equipo.json"; // 👈 Import directo del JSON
+import equipo from "../data/Nosotras.json";
 
 const Nosotras = () => {
   return (
