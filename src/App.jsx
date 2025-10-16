@@ -55,18 +55,20 @@ import Contactanos from "./pages/Contactanos"
 
 function App() {
   return (
-    <Router>
+    <div>
+      <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Nosotras" element={<Nosotras />} />
-          <Route path="/MisionVision" element={<MisionVision />} />
-          <Route path="/Testimonios" element={<Testimonios/>} />
-          <Route path="/Foro" element={<Foro />} />
-          <Route path="/Contactanos" element={<Contactanos />} />
-        </Routes>
+            <Route path="/Nosotras" element={<Nosotras />} />
+            <Route path="/MisionVision" element={<MisionVision />} />
+            <Route path="/Testimonios" element={<Testimonios/>} />
+            <Route path="/Foro" element={<Foro />} />
+            <Route path="/Contactanos" element={<Contactanos />} />
+          </Routes>
       </Layout>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
