@@ -5,7 +5,7 @@ import Nosotras from "./pages/Nosotras";
 import MisionVision from "./pages/MisionVision";
 import Testimonios from "./pages/Testimonios";
 import Foro from "./pages/Foro";
-import Contacto from "./pages/Contacto";
+import Contactanos from "./pages/Contactanos";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/MisionVision" element={<MisionVision />} />
           <Route path="/Testimonios" element={<Testimonios/>} />
           <Route path="/Foro" element={<Foro />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </Layout>
     </Router>
