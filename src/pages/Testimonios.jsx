@@ -22,7 +22,7 @@ const Testimonios = () => {
         </p>
       </section>
 
-      {/* Lista de testimonios */}
+      {/* testimonios */}
       <section className="flex flex-col md:flex-row justify-center items-center gap-8 p-8 flex-wrap">
         {testimonios.map((testimonio) => (
           <div
