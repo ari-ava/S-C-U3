@@ -8,7 +8,7 @@ import Foro from "./pages/Foro";
 import Contactanos from "./pages/Contactanos.jsx";
 
 function App() {
-  return (
+  return ( 
     <Router>
       <Layout>
         <Routes>
