@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "..public/assets/img/logo.png";
+import logo from "../assets/img/logo.png";
 import misionImg from "../assets/img/mision.jpg";
 import visionImg from "../assets/img/vision.jpg";
 import planes from "../data/planes.json";
