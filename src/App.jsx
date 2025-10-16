@@ -9,6 +9,7 @@ import Contactanos from "./pages/Contactanos.jsx";
 
 function App() {
   return ( 
+    <>
     <Router>
       <Layout>
         <Routes>
@@ -21,6 +22,7 @@ function App() {
         </Routes>
       </Layout>
     </Router>
+    </>
   );
 }
 
