@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center text-center min-h-[90vh] bg-gradient-to-b from-orange-100 to-orange-50 px-6 py-16">
       
-      {/* Hero Section */}
+      { }
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <img
-          src="/assets/img/ChatGPT Image 21 sept 2025, 19_46_22.png"
+          src="/assets/img/logo.png"
           alt="Logo principal"
           className="w-40 h-40 sm:w-56 sm:h-56 rounded-full shadow-xl border-4 border-orange-300 bg-white"
         />
