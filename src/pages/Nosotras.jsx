@@ -16,7 +16,7 @@ const Nosotras = () => {
           </span>
         </div>
         <nav>
-          <ul className="flex flex-wrap gap-4 text-orange-900 font-medium">
+          <ul className="flex flex-wrap gap-4 text-orange-900 font-medium" >
             <li><a href="/" className="hover:text-orange-600">Inicio</a></li>
             <li><a href="/Nosotras" className="hover:text-orange-600">Nosotras</a></li>
             <li><a href="/MisionVision" className="hover:text-orange-600">Misión y Visión</a></li>
