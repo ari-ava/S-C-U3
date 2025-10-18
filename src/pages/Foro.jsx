@@ -44,9 +44,10 @@ const Foro = () => {
       : mensajes.filter((m) => m.materia === filtro);
 
   return (
-    <main className="max-w-6xl mx-auto p-6 font-sans">
 
-      <Loyaout> </Loyaout>
+    <Loyaout>
+
+    <main className="max-w-6xl mx-auto p-6 font-sans">
 
       { }
       <section className="text-center mb-12">
@@ -188,6 +189,7 @@ const Foro = () => {
         <p>Facebook: <a href="#" className="text-orange-600">SembrandoConocimentos</a></p>
       </footer>
     </main>
+    </Loyaout>
   );
 };
 
