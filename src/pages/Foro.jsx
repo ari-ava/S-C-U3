@@ -46,6 +46,8 @@ const Foro = () => {
   return (
     <main className="max-w-6xl mx-auto p-6 font-sans">
 
+      <Loyaout> </Loyaout>
+
       { }
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold text-orange-600 mb-4">
@@ -180,7 +182,7 @@ const Foro = () => {
         </ul>
       </section>
 
-      {/* Footer */}
+      { }
       <footer className="text-center text-gray-700 py-6 border-t border-orange-200">
         <p>Instagram: <a href="#" className="text-orange-600">Sembrando_Conocimientos</a></p>
         <p>Facebook: <a href="#" className="text-orange-600">SembrandoConocimentos</a></p>
