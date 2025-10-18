@@ -1,8 +1,12 @@
 import React from "react";
 import equipo from "../data/Nosotras.json";
+import Layout from "../Components/Layout";
 
 const Nosotras = () => {
   return (
+
+    <Layout>
+
     <div className="bg-orange-50 min-h-screen">
       <header className="bg-orange-300 shadow-md p-4 flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center gap-3">
@@ -71,6 +75,7 @@ const Nosotras = () => {
         </div>
       </section>
     </div>
+    </Layout>
   );
 };
 
