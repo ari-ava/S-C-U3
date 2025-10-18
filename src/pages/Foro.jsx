@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import materiasData from "../data/materiales.json";
 import Layout from "./Components/Layout.jsx";
 
+React
+
 const Foro = () => {
   const [mensajes, setMensajes] = useState([]);
   const [materiaSeleccionada, setMateriaSeleccionada] = useState("");
