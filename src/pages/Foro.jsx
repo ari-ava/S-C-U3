@@ -198,6 +198,9 @@ const Responder = ({ mensaje, enviarRespuesta }) => {
   const [respuesta, setRespuesta] = useState("");
 
   return (
+
+    <Layout>
+
     <div className="mt-3">
       <button
         onClick={() => setMostrar(!mostrar)}
@@ -235,6 +238,7 @@ const Responder = ({ mensaje, enviarRespuesta }) => {
         </div>
       )}
     </div>
+    </Layout>
   );
 };
 
