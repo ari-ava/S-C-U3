@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Layout from "../Components/Layout";
 
 const Testimonios = () => {
   const [testimonios, setTestimonios] = useState([]);
@@ -11,6 +12,9 @@ const Testimonios = () => {
   }, []);
 
   return (
+
+    <Layout>
+
     <main className="bg-gradient-to-b from-orange-100 to-white min-h-screen">
       {/* Encabezado */}
       <section className="text-center p-6 bg-orange-200 shadow-md">
@@ -42,6 +46,7 @@ const Testimonios = () => {
         ))}
       </section>
     </main>
+    </Layout>
   );
 };
 

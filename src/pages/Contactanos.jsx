@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Layout from "../Components/Layout";
 
 const Contactanos = () => {
   const [formData, setFormData] = useState({
@@ -52,6 +53,8 @@ const Contactanos = () => {
   };
 
   return (
+
+    <Layout>
     <main className="min-h-screen bg-orange-50 flex flex-col items-center py-12 px-6">
       <header className="text-center mb-10">
         <img
@@ -167,6 +170,7 @@ const Contactanos = () => {
         </ul>
       </section>
     </main>
+    </Layout>
   );
 };
 

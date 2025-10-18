@@ -3,17 +3,14 @@ import logo from "../assets/img/logo.png";
 import misionImg from "../assets/img/mision.jpg";
 import visionImg from "../assets/img/vision.jpg";
 import planes from "../data/planes.json";
+import Layout from "../Components/Layout";
 
 const MisionVision = () => {
   return (
+
+    <Layout>
+
     <main className="max-w-5xl mx-auto p-6 font-sans">
-      {/* Header */}
-      <header className="text-center bg-orange-50 border-b-4 border-orange-300 p-4 rounded-md mb-10 shadow-sm">
-        <div className="flex items-center justify-center gap-3">
-          <img src={logo} alt="Logo" className="w-16 h-16 rounded-full shadow-md" />
-          <span className="text-2xl font-bold text-orange-700">Sembrando Conocimientos</span>
-        </div>
-      </header>
 
       {/* Misión */}
       <section className="mb-16">
@@ -92,6 +89,7 @@ const MisionVision = () => {
         </div>
       </section>
     </main>
+    </Layout>
   );
 };
 
