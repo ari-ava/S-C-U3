@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import mensajesData from "../data/mensajesHome.json";
+import Layout from "../Components/Layout";
 
 const Home = () => {
   const [mensajeActual, setMensajeActual] = useState(0);
@@ -14,6 +15,9 @@ const Home = () => {
   const mensaje = mensajesData[mensajeActual];
 
   return (
+    
+    <Layout>
+
     <div className="flex flex-col items-center justify-center text-center min-h-[90vh] bg-gradient-to-b from-orange-100 to-orange-50 px-6 py-16">
       
       { }
@@ -65,6 +69,7 @@ const Home = () => {
         © 2025 Sembrando Conocimientos | Todos los derechos reservados 🌾
       </footer>
     </div>
+    </Layout>
   );
 };
 
