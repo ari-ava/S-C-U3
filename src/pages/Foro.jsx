@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import materiasData from "../data/materiales.json";
+import Layout from "./Components/Layout.jsx";
 
 const Foro = () => {
   const [mensajes, setMensajes] = useState([]);
@@ -44,26 +45,8 @@ const Foro = () => {
 
   return (
     <main className="max-w-6xl mx-auto p-6 font-sans">
-      {/* Header con navegación */}
-      <header className="bg-orange-100 p-4 rounded-lg shadow mb-10 flex justify-center flex-wrap gap-3">
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
-          Inicio
-        </button>
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
-          Misión
-        </button>
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
-          Formulario
-        </button>
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition">
-          Calculadora
-        </button>
-        <button className="bg-orange-700 text-white px-4 py-2 rounded-lg">
-          Foro
-        </button>
-      </header>
 
-      {/* Bienvenida */}
+      { }
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold text-orange-600 mb-4">
           Bienvenido a nuestro Foro
@@ -120,7 +103,7 @@ const Foro = () => {
           ))}
         </div>
 
-        {/* Ejemplo inicial */}
+        { }
         <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 text-left shadow">
           <p>
             <b>Pregunta:</b> Hola, ¿qué libros me recomendarían para estudiar
@@ -136,7 +119,7 @@ const Foro = () => {
         </div>
       </section>
 
-      {/* Publicar nuevo mensaje */}
+      { }
       <section className="mb-10">
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
           <input
@@ -166,7 +149,7 @@ const Foro = () => {
           </button>
         </div>
 
-        {/* Lista de mensajes */}
+        { }
         <div id="foro" className="space-y-6">
           {mensajesFiltrados.map((m) => (
             <div
@@ -184,7 +167,7 @@ const Foro = () => {
         </div>
       </section>
 
-      {/* Temas destacados */}
+      { }
       <section className="bg-orange-50 p-6 rounded-xl shadow mb-10">
         <h2 className="text-2xl font-bold text-orange-700 mb-4">
           Temas destacados:
@@ -206,7 +189,6 @@ const Foro = () => {
   );
 };
 
-// Subcomponente: manejo de respuestas
 const Responder = ({ mensaje, enviarRespuesta }) => {
   const [mostrar, setMostrar] = useState(false);
   const [respuesta, setRespuesta] = useState("");
