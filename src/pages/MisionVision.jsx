@@ -8,7 +8,7 @@ import Layout from "../Components/Layout";
 const MisionVision = () => {
   return (
 
-    <Layout>
+
 
     <main className="max-w-5xl mx-auto p-6 font-sans">
 
@@ -89,7 +89,7 @@ const MisionVision = () => {
         </div>
       </section>
     </main>
-    </Layout>
+
   );
 };
 

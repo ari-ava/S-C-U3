@@ -13,7 +13,7 @@ const Testimonios = () => {
 
   return (
 
-    <Layout>
+ 
 
     <main className="bg-gradient-to-b from-orange-100 to-white min-h-screen">
       {/* Encabezado */}
@@ -46,7 +46,7 @@ const Testimonios = () => {
         ))}
       </section>
     </main>
-    </Layout>
+  
   );
 };
 

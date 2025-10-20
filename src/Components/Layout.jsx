@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
           <div className="flex items-center space-x-3">
             <img
-              src="./assets/img/logo.png"
+              src="src\assets\img\logo.png"
               alt="Logo"
               className="w-10 h-10 rounded-full"
             />

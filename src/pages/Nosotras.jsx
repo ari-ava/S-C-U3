@@ -5,31 +5,10 @@ import Layout from "../Components/Layout";
 const Nosotras = () => {
   return (
 
-    <Layout>
+
 
     <div className="bg-orange-50 min-h-screen">
-      <header className="bg-orange-300 shadow-md p-4 flex flex-col md:flex-row items-center justify-between">
-        <div className="flex items-center gap-3">
-          <img
-            src="/assets/img/ChatGPT Image 21 sept 2025, 19_46_22.png"
-            alt="Logo Sembrando Conocimientos"
-            className="w-14 h-14 rounded-full"
-          />
-          <span className="text-xl font-bold text-orange-800">
-            Sembrando Conocimientos
-          </span>
-        </div>
-        <nav>
-          <ul className="flex flex-wrap gap-4 text-orange-900 font-medium" >
-            <li><a href="/" className="hover:text-orange-600">Inicio</a></li>
-            <li><a href="/Nosotras" className="hover:text-orange-600">Nosotras</a></li>
-            <li><a href="/MisionVision" className="hover:text-orange-600">Misión y Visión</a></li>
-            <li><a href="/Foro" className="hover:text-orange-600">Foro</a></li>
-            <li><a href="/Testimonios" className="hover:text-orange-600">Testimonios</a></li>
-            <li><a href="/Contactanos" className="hover:text-orange-600">Contáctanos</a></li>
-          </ul>
-        </nav>
-      </header>
+     
 
       <section className="container mx-auto py-10 px-6">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -75,7 +54,7 @@ const Nosotras = () => {
         </div>
       </section>
     </div>
-    </Layout>
+    
   );
 };
 
