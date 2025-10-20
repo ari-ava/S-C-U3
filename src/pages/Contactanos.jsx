@@ -54,11 +54,11 @@ const Contactanos = () => {
 
   return (
 
-    <Layout>
+ 
     <main className="min-h-screen bg-orange-50 flex flex-col items-center py-12 px-6">
       <header className="text-center mb-10">
         <img
-          src="/assets/img/ChatGPT Image 21 sept 2025, 19_46_22.png"
+          src="src\assets\img\logo.png"
           alt="Logo Sembrando Conocimientos"
           className="w-24 h-24 mx-auto mb-4 rounded-full shadow-md"
         />
@@ -170,7 +170,7 @@ const Contactanos = () => {
         </ul>
       </section>
     </main>
-    </Layout>
+    
   );
 };
 

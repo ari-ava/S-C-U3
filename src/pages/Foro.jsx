@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import materiasData from "../data/materiales.json";
-import Layout from "./Components/Layout.jsx";
+import Layout from "../Components/Layout"
 
 React
 
@@ -47,7 +47,7 @@ const Foro = () => {
 
   return (
 
-    <Layout>
+  
 
     <main className="max-w-6xl mx-auto p-6 font-sans">
 
@@ -191,7 +191,7 @@ const Foro = () => {
         <p>Facebook: <a href="#" className="text-orange-600">SembrandoConocimentos</a></p>
       </footer>
     </main>
-    </Layout>
+   
   );
 };
 
