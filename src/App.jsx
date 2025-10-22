@@ -1,15 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./Components/Layout.jsx";
-import Home from "./pages/Home.jsx";
-import Nosotras from "./pages/Nosotras.jsx";
-import MisionVision from "./pages/MisionVision.jsx";
-import Testimonios from "./pages/Testimonios.jsx";
-import Foro from "./pages/Foro.jsx";
-import Contactanos from "./pages/Contactanos.jsx";
+import Layout from "../src/Components/Layout.jsx" 
+import Home from "../src/pages/Home.jsx"
+import Nosotras from "../src/pages/Nosotras.jsx";
+import MisionVision from "../src/pages/MisionVision.jsx";
+import Testimonios from "../src/pages/Testimonios.jsx";
+import Foro from "../src/pages/Foro.jsx";
+import Contactanos from "../src/pages/Contactanos.jsx";
 
 function App() {
   return ( 
-    <>
     <Router>
       <Layout>
         <Routes>
@@ -22,7 +21,6 @@ function App() {
         </Routes>
       </Layout>
     </Router>
-    </>
   );
 }
 

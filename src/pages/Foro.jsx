@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import materiasData from "../data/materiales.json";
-import Layout from "./Components/Layout.jsx";
+import Layout from "../Components/Layout"
 
 React
 
@@ -46,8 +46,6 @@ const Foro = () => {
       : mensajes.filter((m) => m.materia === filtro);
 
   return (
-
-    <Layout>
 
     <main className="max-w-6xl mx-auto p-6 font-sans">
 
@@ -191,7 +189,7 @@ const Foro = () => {
         <p>Facebook: <a href="#" className="text-orange-600">SembrandoConocimentos</a></p>
       </footer>
     </main>
-    </Layout>
+
   );
 };
 
@@ -201,7 +199,6 @@ const Responder = ({ mensaje, enviarRespuesta }) => {
 
   return (
 
-    <Layout>
 
     <div className="mt-3">
       <button
@@ -240,7 +237,6 @@ const Responder = ({ mensaje, enviarRespuesta }) => {
         </div>
       )}
     </div>
-    </Layout>
   );
 };
 
